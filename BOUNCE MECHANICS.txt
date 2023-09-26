@@ -1,0 +1,6 @@
+BOUNCE MECHANICS
+1. Add circle collider 2D and Rigidbody 2D to the target object
+2. Set collision detection to continuous and interpolate  mode to interpolate
+3. Create a new Physics material 2D and set the bounciness value to 1
+4. Add new material to the rigidbody material slot
+5. To adjust, change gravity scale or bounciness value

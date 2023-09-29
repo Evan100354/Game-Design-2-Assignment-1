@@ -693,7 +693,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerParts: {fileID: 734050192}
   builtCharge: 0
-  chargeBuildRate: 500
+  chargeBuildRate: 750
   maxCharge: 1500
 --- !u!1 &888497728
 GameObject:
@@ -880,7 +880,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerParts: {fileID: 888497738}
   builtCharge: 0
-  chargeBuildRate: 500
+  chargeBuildRate: 750
   maxCharge: 1500
 --- !u!1 &1536608302
 GameObject:

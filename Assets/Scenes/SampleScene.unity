@@ -238,7 +238,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c781c5a725bd34f4cba226c8998ecd11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shrinkSpeed: 0.001
+  shrinkSpeed: 0.003
   text: {fileID: 1743926397}
 --- !u!58 &24327264
 CircleCollider2D:
@@ -547,10 +547,10 @@ Rigidbody2D:
   m_LinearDrag: 1
   m_AngularDrag: 20
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 8957813e708d4014f801901bb30f51e4, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!212 &734050187
 SpriteRenderer:
@@ -634,7 +634,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerSpeed: 2
-  turnSpeed: 75
+  turnSpeed: 100
   playerParts: {fileID: 734050192}
 --- !u!58 &734050190
 CircleCollider2D:
@@ -693,8 +693,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerParts: {fileID: 734050192}
   builtCharge: 0
-  chargeBuildRate: 100
-  maxCharge: 1000
+  chargeBuildRate: 500
+  maxCharge: 1500
 --- !u!1 &888497728
 GameObject:
   m_ObjectHideFlags: 0
@@ -803,10 +803,10 @@ Rigidbody2D:
   m_LinearDrag: 1
   m_AngularDrag: 20
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 8957813e708d4014f801901bb30f51e4, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!114 &888497734
 MonoBehaviour:
@@ -822,7 +822,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerParts: {fileID: 888497738}
   playerSpeed: 2
-  turnSpeed: 75
+  turnSpeed: 100
 --- !u!58 &888497735
 CircleCollider2D:
   m_ObjectHideFlags: 0
